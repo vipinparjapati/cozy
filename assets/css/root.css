@@ -1,0 +1,59 @@
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+:root{
+    /* font-size: */
+    --fs-50:50px;
+  --fs-18:18px;
+--fs-60:60px;
+--fs-40:40px;
+--fs-24:24px;
+--fs-69:69px;
+
+/* font-weight: */
+  
+    --fw-700:700;
+     --fw-400:400;
+    
+
+  
+}
+
+.fs-18{
+    font-size:  var(--fs-18);
+}
+.fs-50{
+    font-size: var(--fs-50);
+}
+.fs-40{
+    font-size:  var(--fs-40);
+}
+
+.fs-24{
+    font-size:  var(--fs-24);
+}
+.fs-69{
+    font-size:  var(--fs-69);
+}
+.fs-60{
+    font-size:  var(--fs-60);
+}
+/* font-wight */
+.fw-400{
+    font-weight: var(--fw-400);
+}
+.fw-700{
+    font-weight:var(--fw-700);
+}
+
+.ff-Cherry_Bomb_One{
+    font-family:'Cherry Bomb One' ,sans-serif
+}
+.ff-Balsamiq-Sans{
+    font-family: 'Balsamiq Sans',sans-serif
+}
+@media (max-width:992px) {
+    .position-absolute786{
+        top: 1%;
+        right: 8%;
+        position: absolute;
+    }
+}
